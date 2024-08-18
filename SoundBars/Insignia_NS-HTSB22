@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 08 F7 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 6A 95 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 61 9E 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 60 9F 00 00
+# 
+name: Previous
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: C0 3F 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: C1 3E 00 00
+# 
+name: Play_pause_pair
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: C4 3B 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 78 87 00 00
+# 
+name: Bass
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 66 99 00 00
+# 
+name: Standard
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: A3 5C 00 00
+# 
+name: Theater
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: A0 5F 00 00
+# 
+name: News
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: A2 5D 00 00
